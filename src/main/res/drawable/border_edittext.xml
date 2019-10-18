@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Bottom right side 2dp shadow -->
+
+    <!-- Bottom 2dp shadow -->
+    <item  >
+        <shape android:shape="rectangle">
+            <solid android:color="#E2E2E4"/>
+        </shape>
+    </item>
+
+
+    <!-- White Top (edittext)color -->
+    <item  android:bottom="3px">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</layer-list>
+<!--<stroke android:width="1dp"
+    android:color="@color/white"/>
+    <solid android:color="@color/white" /> -->

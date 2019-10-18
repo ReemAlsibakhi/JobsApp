@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@color/white"
+    android:minHeight="400dp"
+    android:minWidth="600dp">
+    <EditText
+        android:layout_marginTop="@dimen/margin20"
+        android:textSize="@dimen/numbersize14"
+        android:id="@+id/upload_resume"
+        android:hint="@string/copy_url"
+        android:background="@drawable/border_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="@dimen/margin_ten"/>
+<Button
+    android:id="@+id/btn_apply"
+    android:layout_width="60dp"
+    android:layout_height="35dp"
+    android:layout_marginTop="@dimen/margin22"
+    android:layout_below="@+id/upload_resume"
+    android:background="@drawable/button_item"
+    android:layout_marginRight="@dimen/margin31"
+    android:layout_marginLeft="@dimen/margin31"
+    android:fontFamily="@font/cairo"
+    android:textColor="@color/white"
+    android:textAllCaps="false"
+    android:text="@string/upload"
+    android:textSize="10sp"
+    android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>

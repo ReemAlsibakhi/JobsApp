@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_Buttons">300dp</dimen>
+    <dimen name="padding_activity">16dp</dimen>
+    <dimen name="padding_editText">2dp</dimen>
+    <dimen name="margin_bottom_button">50dp</dimen>
+    <dimen name="margin_top_button">100dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_top_txtview">15dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="margin_fifteen">15dp</dimen>
+    <dimen name="margin_bottom_edit">10dp</dimen>
+    <dimen name="margin17">17dp</dimen>
+    <dimen name="margin_top">15dp</dimen>
+    <dimen name="margin_bottom">15dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin3">3dp</dimen>
+    <dimen name="numbersize">12sp</dimen>
+    <dimen name="numbersize15">15sp</dimen>
+    <dimen name="numbersize14">14sp</dimen>
+    <dimen name="margin30">30dp</dimen>
+    <dimen name="height70">70dp</dimen>
+    <dimen name="margin36">36dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin31">31dp</dimen>
+    <dimen name="margin22">22dp</dimen>
+    <dimen name="border3px">3px</dimen>
+    <dimen name="margin124">124dp</dimen>
+    <dimen name="margin45">45dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="txtSize10sp">10sp</dimen>
+    <dimen name="txtSize12">12sp</dimen>
+</resources>

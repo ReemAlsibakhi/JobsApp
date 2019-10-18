@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@color/white">
+
+<ImageView
+    android:layout_marginLeft="@dimen/margin_fifteen"
+    android:layout_marginRight="@dimen/margin_fifteen"
+    android:id="@+id/imageWork"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="271dp"
+    android:src="@drawable/artwork"/>
+    <LinearLayout
+        android:id="@+id/welGaza"
+        android:layout_below="@+id/imageWork"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="@dimen/margin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wlc_app"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/cairo_black"/>
+
+      <TextView
+          android:layout_marginLeft="@dimen/margin_five"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/GazaJobs"
+          android:textSize="18sp"
+          android:textColor="@color/black"
+          android:fontFamily="@font/cairo_bold"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/finbJobs"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/welGaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/find_job"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:fontFamily="@font/cairo"/>
+<Button
+    android:id="@+id/btn_advertise"
+    android:fontFamily="@font/cairo"
+    android:drawableRight="@drawable/ic_briefcase"
+    android:drawablePadding="10dp"
+    android:gravity="center"
+    android:singleLine="true"
+    android:paddingLeft="76dp"
+    android:paddingRight="75dp"
+    android:textSize="14sp"
+    android:layout_below="@+id/finbJobs"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"
+    android:layout_width="266dp"
+    android:textAllCaps="false"
+    android:layout_height="48dp"
+    android:text="@string/Advertise_job"
+    android:textColor="@color/white"
+    android:background="@drawable/color_button"
+    style="?android:borderlessButtonStyle"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_advertise"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/choose">
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/gotoHome"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/go_Home"
+            android:fontFamily="@font/cairo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/ic_home"
+            android:drawablePadding="10dp"
+            android:text="@string/go_home"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:fontFamily="@font/cairo"
+            />
+    </LinearLayout>
+
+
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="69dp"
+        android:text="@string/Home"
+        />
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobRequirements"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginLeft="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_back_arrow"
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:fontFamily="@font/cairo"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/data_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job_requirements"
+            android:fontFamily="@font/cairo_bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin17"/>
+        <LinearLayout
+            android:layout_marginTop="32dp"
+            android:orientation="vertical"
+            android:layout_below="@id/data_job"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            >
+            <TextView
+                android:textSize="12sp"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/descrptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+            <TextView
+
+                android:textColor="@color/gray"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:id="@+id/txtDescriptions"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edittext"
+                android:textSize="14sp"
+                android:fontFamily="@font/cairo"
+                />
+
+
+            <TextView
+                android:text="@string/Requirement"
+                android:textSize="12sp"
+                android:fontFamily="@font/cairo_bold"
+                android:layout_marginTop="@dimen/margin_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtRequirements"
+                android:layout_width="266dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:background="@drawable/border_edittext"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:textSize="14sp"
+                android:fontFamily="@font/cairo"
+                android:layout_marginBottom="@dimen/margin_ten"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

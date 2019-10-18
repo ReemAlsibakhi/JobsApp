@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatCheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_content"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:textColor="@color/white"
+    android:textSize="14sp"
+    android:fontFamily="@font/cairo"
+    android:paddingLeft="@dimen/margin_five"
+    android:paddingRight="@dimen/margin_five"
+    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+    android:background="@color/blue"
+    android:theme="@style/MyCheckBox"
+   >
+
+</android.support.v7.widget.AppCompatCheckedTextView>

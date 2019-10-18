@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gaza Job</string>
+
+    <!-- activities for login -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="phone_number">phone number</string>
+    <string name="e_mail">Email</string>
+    <string name="job_title">job title</string>
+    <string name="choose">choose</string>
+    <string name="Notifications_recieve">Notifications that you want to receive via?</string>
+    <string name="mobile">Mobile</string>
+    <string name="search_specialize">Look for the specialty you want to receive notifications for:</string>
+    <string name="selected">selected</string>
+    <string name="company_name">company name</string>
+    <string name="company_website">Company Address</string>
+    <string name="telephone_num">phone number</string>
+    <string name="mobile_num">mobile number</string>
+    <string name="website">website</string>
+    <string name="have_account">Already have an account</string>
+    <string name="Login">Login</string>
+    <string name="Register_Response">Register Response:</string>
+    <string name="RememberMe">Remember me</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="complete_signup">Complete sign up</string>
+    <string name="job_jeeker">Job seeker</string>
+    <string name="business_owner">Business Owner</string>
+    <string name="website_optional">Website (optional)</string>
+    <string name="Apply">Apply Now</string>
+    <string name="search">search</string>
+    <string name="invalid_email">please enter avalid email address</string>
+    <string name="Please_enter_mobile">please enter avalid mobile number</string>
+    <!-- type of job -->
+    <!-- advertisment for job -->
+    <string name="descrptions">Job Description</string>
+    <string name="Requirement">Job Requirements</string>
+    <string name="details">Job Details</string>
+    <string name="salary">salary</string>
+    <string name="place">Place</string>
+    <string name="typeJob">job type</string>
+    <string name="deadline_sub">Deadline for submission</string>
+    <string name="category">Category</string>
+    <string name="submisstion">Apply for this post now</string>
+    <string name="Advertising_done">Advertising done</string>
+    <!-- splach screen -->
+    <string name="GAZA">GAZA</string>
+    <string name="JOBS"> JOBS</string>
+    <!-- welcome activity -->
+    <string name="wlc_app">Welcome to</string>
+    <string name="find_job">You can now find the job that suits you</string>
+    <string name="Advertise_job">Advertise ajob</string>
+    <string name="GazaJobs">Gaza Jobs</string>
+    <string name="go_home">Go to Home</string>
+    <!-- fragment -->
+    <string name="Home">home</string>
+    <string name="jobs">Jobs</string>
+    <string name="Profile">Profile</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="not_found">Not Found</string>
+    <string name="Oops">Oops</string>
+    <string name="exclamation">!</string>
+    <string name="you_notHave">You do not have an account</string>
+    <string name="we_happy">We are happy to register with us</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="personal_data">Personal data</string>
+    <string name="Please_enter_details">please enter data</string>
+    <string name="publish_job">Publish a job</string>
+    <string name="speciaty">speciaty</string>
+    <string name="publish">Publish</string>
+    <string name="LogUp">log out</string>
+    <string name="interestField">your interest field</string>
+    <string name="job_requirements">Job Requirements</string>
+    <string name="filter">Filter</string>
+    <string name="price">Price</string>
+    <string name="type">Type</string>
+    <string name="saved">saved</string>
+    <string name="Login_successfully">Login successfully</string>
+    <string name="min_salary">Min salary</string>
+    <string name="max_salary">Max salary</string>
+    <string name="appliedjobs">Jobs Submitted to it</string>
+    <string name="no_bookmark">There is no history yet</string>
+    <string name="arent_applied">you have not submitted any posts yet</string>
+    <string name="want_create">Do you want to create an account as a job seeker ?</string>
+    <string name="create_account_company">Do you want to create an account as a company owner?</string>
+    <string name="email_password">email or password invalid</string>
+    <string name="deleted">Successfully deleted</string>
+    <string name="do_sure_delete">are sure of the deleting process ?</string>
+    <string name="deleting">deleting</string>
+    <string name="error_save">previously saved</string>
+    <string name="registering">registering</string>
+    <string name="logging">logging</string>
+    <string name="copy_url">copy works link</string>
+    <string name="upload">upload</string>
+    <string name="please_url">please enter avalid business link</string>
+    <string name="warning_upload">please enter your works url from personal profile</string>
+    <string name="upload_successfully">uploaded successfully</string>
+    <string name="couldnt_applied">failed to apply</string>
+    <string name="submitted_successfully">job progress was successful</string>
+    <string name="failed_delete">failed to delete</string>
+    <string name="follow">Follow</string>
+    <string name="finalDate">Deadline for submission</string>
+    <string name="invalid_date">Deadline for submission is invalid</string>
+    <string name="confirm_application">Check your e-mail to complete the registration process</string>
+    <string name="confirm_email">See your email</string>
+    <string name="password_length">Password not less than 6 characters</string>
+    <string name="largeInput">The text you entered is large</string>
+    <string name="smallInput">The text you entered is small</string>
+    <string name="invalid_mobile_Input">Please enter a valid number</string>
+    <string name="error_url">Please enter a valid link</string>
+    <string name="published">It will be published soon by the addmin</string>
+    <string name="email_found">Email already exists</string>
+    <string name="visit_our">we are happy to visit our</string>
+    <string name="offical">offical website</string>
+    <string name="befor_applied">I applied for the job in advance</string>
+    <string name="signUp">Sign up</string>
+    <string name="please_data">please enter data</string>
+    <string name="startDeleting">Deleting</string>
+    <string name="error_delete">Failed to save</string>
+    <string name="autocomplete">autocomplete</string>
+    <string name="postsJobs">Jobs announced</string>
+
+
+    <!-- place of company -->
+    <string name="Gaza">غزة</string>
+    <string name="north_gaza">شمال غزة</string>
+    <string name="beetHanoon">بيت حانون</string>
+    <string name="jabalia">جباليا</string>
+    <string name="bait_lahia">بيت لاهيا</string>
+    <string name="bni_sohila">بني سهيلا</string>
+    <string name="middle_gaza">الوسطى</string>
+    <string name="dair_albalah">دير البلح</string>
+    <string name="south_gaza">خان يونس</string>
+    <string name="rafah">رفح</string>
+    <!-- type of job -->
+    <string name="Full_Time">دوام كامل </string>
+    <string name="Part_Time">دوام جزئي</string>
+    <string name="Full_Part">شغل بالقطعة</string>
+
+    <!-- speciality-->
+    <string name="Human_Medicine">الطب البشري</string>
+    <string name="dentist">طب الاسنان</string>
+    <string name="Pharmacist">طب صيدلي</string>
+    <string name="architecture">الهندسة المعمارية</string>
+    <string name="civil_engineering">الهندسة المدنية</string>
+    <string name="Computer_Engineering">هندسة الحاسوب</string>
+    <string name="electrical_engineering">الهندسة الكهربائية</string>
+    <string name="Mechanical_Engineering">الهندسة الميكانيكية</string>
+    <string name="Environmental_Engineering">الهندسة البيئية</string>
+    <string name="industrial_engineering">الهندسة الصناعية</string>
+    <string name="Medical_Laboratory_Sciences">العلوم الطبية المخبرية</string>
+    <string name="Medical_optics_technology">تكنولوجيا البصريات الطبية</string>
+    <string name="natural_therapy">العلاج الطبيعي</string>
+    <string name="Mathematics">الرياضيات</string>
+    <string name="Mathematics_Statistics">الرياضيات/إحصاء</string>
+    <string name="Mathematics_Computer">الرياضيات/كمبيوتر</string>
+    <string name="Chemistry">الكيمياء</string>
+    <string name="Biochemistry">الكيمياء الحيوية</string>
+    <string name="Biotechnology">التكنولوجيا الحيوية</string>
+    <string name="Biology">الأحياء</string>
+    <string name="Physics">الفيزياء</string>
+    <string name="Earth_and_Environmental_Sciences">علوم الأرض والبيئة</string>
+    <string name="Plant_production">الإنتاج النباتي</string>
+    <string name="Computer_science">علم الحاسوب</string>
+    <string name="Information_Technology">تكنولوجيا المعلومات</string>
+    <string name="Software_development">تطوير البرمجيات</string>
+    <string name="Multimedia_and_web_development">تكنولوجيا الوسائط المتعددة وتطوير الويب</string>
+    <string name="Mobile_computing">الحوسبة المتنقلة وتطبيقات الأجهزة الذكية</string>
+    <string name="Nursing">التمريض</string>
+    <string name="Midwifery">القبالة</string>
+    <string name="Accounting">المحاسبة</string>
+    <string name="Business_Management">إدارة الأعمال</string>
+    <string name="Economy_and_political_science">الإقتصاد والعلوم السياسية</string>
+    <string name="Banking_and_Finance">العلوم المالية والمصرفية</string>
+    <string name="Politics_and_Media">السياسة والإعلام</string>
+    <string name="Economics_Applied_Statistics">الاقتصاد/إحصاء تطبيقي</string>
+    <string name="English_Business_Administration">إدارة الأعمال باللغة الإنجليزية</string>
+    <string name="Accounting_in_English">المحاسبة باللغة الإنجليزية</string>
+    <string name="Psychological_guidance">الإرشاد النفسي والتوجيه التربوي</string>
+    <string name="Basic_stage">المرحلة الأساسية</string>
+    <string name="Education_of_Islamic_Education">تعليم التربية الإسلامية</string>
+    <string name="Education">تعليم اجتماعيات</string>
+    <string name="Science_Education">تعليم العلوم</string>
+    <string name="Teaching_Mathematics">تعليم الرياضيات</string>
+    <string name="Teaching_Arabic">تعليم اللغة العربية</string>
+    <string name="Teaching_English">تعليم اللغة الانجليزية</string>
+    <string name="Chemistry_and_teaching_methods">الكيمياء وأساليب تدريسها</string>
+    <string name="Physics_and_teaching_methods">الفيزياء وأساليب تدريسها</string>
+    <string name="Biology_and_teaching_methods">الأحياء وأساليب تدريسها</string>
+    <string name="Computer">الحاسوب وأساليب تدريسها</string>
+    <string name="Arabic">اللغة العربية</string>
+    <string name="Arabic_language_sub_press">لغة عربية فرعي صحافة</string>
+    <string name="English">اللغة الأنجليزية</string>
+    <string name="Social_Service">الخدمة الاجتماعية</string>
+    <string name="Geography_Geographic">الجغرافيا فرعي نظم معلومات جغرافية</string>
+    <string name="Press_and_media">الصحافة والإعلام</string>
+    <string name="History_and_Archeology">التاريخ والآثار</string>
+    <string name="Geography">الجغرافيا</string>
+    <string name="Sharia_and_law">الشريعة والقانون</string>
+    <string name="Islamic_law">الشريعة الإسلامية</string>
+    <string name="The_fundamentals_of_religion">أصول دين</string>
+    <string name="update_data">update my data</string>
+    <string name="update">update</string>
+    <string name="updating">updating</string>
+    <string name="updated">updated</string>
+    <string name="error_update">the update failed</string>
+    <string name="change_image">change personal image</string>
+
+</resources>
+
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".JobsSubmitted_User">
+    <TextView
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/ic_back_arrow"
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin20"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appliedjobs"
+        android:fontFamily="@font/cairo_bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin17"/>
+
+        />
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/not_Submitted"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arent_applied"
+        android:fontFamily="@font/lato"
+        android:textSize="14dp"
+        android:textColor="@color/gray"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ProgressBar
+        android:id="@+id/prgbar"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <ListView
+        android:id="@+id/jobsSubmitted"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dividerHeight="@dimen/margin17"
+        android:divider="@android:color/transparent">
+
+    </ListView>
+
+</RelativeLayout>

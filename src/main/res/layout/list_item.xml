@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selected_item_color"
+    >
+    <!--android:clickable="true"
+    android:foreground="?android:selectableItemBackground"
+   -->
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:layout_marginRight="30dp"
+     android:layout_marginLeft="30dp">
+  <!--
+     <com.android.volley.toolbox.NetworkImageView
+         android:id="@+id/cirrcular_close"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_alignParentLeft="true"
+         android:background="@mipmap/companyphoto"
+       />
+-->      
+     <!--android:layout_toRightOf="@+id/cirrcular_close"-->
+
+
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_alignParentRight="true"
+         android:id="@+id/image_company"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@drawable/profile_photo"
+
+         />
+     <TextView
+         android:visibility="invisible"
+         android:layout_alignParentRight="true"
+         android:id="@+id/checkTxt"
+         android:layout_width="@dimen/margin22"
+         android:layout_height="@dimen/margin22"
+         android:background="@drawable/circular_delete"
+         android:paddingRight="5dp"
+         android:drawableRight="@drawable/ic_check_white"
+         android:layout_marginTop="@dimen/margin30"
+         android:layout_marginRight="@dimen/margin30"/>
+     <LinearLayout
+            android:layout_marginRight="@dimen/margin_ten"
+            android:layout_toLeftOf="@id/image_company"
+            android:layout_marginTop="@dimen/margin_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/job_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="@font/cairo_bold"
+             android:text="Director of marketing"
+             android:textColor="@color/black"
+             android:textSize="12sp"
+              />
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScreenScape inc."
+                android:textColor="@color/gray"
+                android:fontFamily="@font/cairo_bold"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <Button
+            android:focusable="false"
+            android:id="@+id/postDate"
+            android:padding="2dp"
+            android:layout_centerVertical="true"
+            android:textAllCaps="false"
+            android:layout_alignParentLeft="true"
+            android:layout_width="53dp"
+            android:layout_height="28dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_item"
+            android:text="12/12/2017"
+            android:textSize="8sp"
+            android:fontFamily="@font/cairo_bold"
+            />
+ </RelativeLayout>
+    </RelativeLayout>
+

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".FilterSide">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginRight="@dimen/margin36"
+            android:id="@+id/closeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin36"
+            android:layout_marginTop="@dimen/margin17"
+            android:drawableRight="@drawable/ic_close"
+
+
+            />
+
+        <TextView
+            android:id="@+id/filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/filter"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/filter_title"
+            android:layout_marginRight="@dimen/margin31"
+            android:layout_marginLeft="@dimen/margin31"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/price"
+                android:textAllCaps="true"
+                android:textColor="@color/tranWhite"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.4dip"
+                android:layout_marginLeft="@dimen/margin20"
+                android:layout_marginRight="@dimen/margin20"
+                android:layout_marginTop="10dp"
+                android:background="@color/tranWhite"
+                android:padding="@dimen/margin_ten"
+                 />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginRight="@dimen/margin31"
+            android:layout_marginLeft="@dimen/margin31"
+            android:id="@+id/rl_sb_price"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height70"
+            android:layout_below="@id/price"
+           android:layout_marginTop="@dimen/margin17"
+            >
+
+            <TextView
+                android:fontFamily="@font/cairo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/min_salary"
+                android:text="@string/min_salary"
+                android:textAllCaps="false"
+                android:layout_marginEnd="@dimen/margin_five"
+                android:textColor="@color/white"
+                tools:ignore="RtlCompat"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin30"/>
+
+            <SeekBar
+                android:id="@+id/sb_min_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/min_salary"
+                android:max="20"
+                tools:ignore="RtlCompat"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin30"/>
+
+            <TextView
+                android:fontFamily="@font/cairo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/max_salary"
+                android:text="@string/max_salary"
+                android:textAllCaps="false"
+                android:layout_marginEnd="@dimen/margin_five"
+                android:textColor="@color/white"
+                tools:ignore="RtlCompat"
+                android:layout_alignParentBottom="true"/>
+
+            <SeekBar
+                android:id="@+id/sb_max_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/min_salary"
+                android:max="20"
+                tools:ignore="RtlCompat"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:id="@+id/start_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin3"
+                android:text="$0"
+                android:textSize="@dimen/numbersize14"
+                android:textColor="@color/white"
+                tools:ignore="RtlCompat"
+                android:layout_toEndOf="@id/min_salary"
+                android:layout_marginBottom="@dimen/margin30"/>
+
+            <TextView
+                android:id="@+id/end_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin3"
+                android:text="$0"
+                android:textSize="@dimen/numbersize14"
+                android:textColor="@color/white"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="@dimen/margin30"
+                android:layout_marginEnd="@dimen/margin17"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+        <!-- place -->
+        <LinearLayout
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_sb_price"
+            android:layout_marginRight="@dimen/margin31"
+             android:layout_marginLeft="@dimen/margin31"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/place"
+                android:textAllCaps="true"
+                android:textColor="@color/tranWhite"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.4dip"
+                android:layout_marginLeft="@dimen/margin20"
+                android:layout_marginRight="@dimen/margin20"
+                android:layout_marginTop="10dp"
+                android:background="@color/tranWhite"
+                android:padding="@dimen/margin_ten" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview_place"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/place"
+            android:layout_marginTop="@dimen/margin17"
+            android:layout_marginRight="@dimen/margin31"
+            android:layout_marginLeft="@dimen/margin31"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/margin17"
+            android:padding="@dimen/margin_five" />
+
+        <LinearLayout
+            android:id="@+id/speciaty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listview_place"
+            android:layout_marginRight="@dimen/margin31"
+            android:layout_marginLeft="@dimen/margin31"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/speciaty"
+                android:textAllCaps="true"
+                android:textColor="@color/tranWhite"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.4dip"
+                android:layout_marginLeft="@dimen/margin20"
+                android:layout_marginRight="@dimen/margin20"                android:layout_marginTop="10dp"
+                android:background="@color/tranWhite"
+                android:padding="@dimen/margin_ten"
+                android:text="fgjjgf" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview_specaity"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/speciaty"
+            android:layout_marginRight="@dimen/margin31"
+             android:layout_marginLeft="@dimen/margin31"
+            android:layout_marginTop="@dimen/margin17"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/margin17"
+            android:padding="@dimen/margin_five" />
+
+        <LinearLayout
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listview_specaity"
+            android:layout_marginRight="@dimen/margin31"
+            android:layout_marginLeft="@dimen/margin31"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairo_bold"
+                android:text="@string/type"
+                android:textAllCaps="true"
+                android:textColor="@color/tranWhite"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.4dip"
+                android:layout_marginLeft="@dimen/margin20"
+                android:layout_marginRight="@dimen/margin20"                android:layout_marginTop="10dp"
+                android:background="@color/tranWhite"
+                android:padding="@dimen/margin_ten"
+                android:text="fgjjgf" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview_type"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_below="@id/type"
+            android:layout_marginRight="@dimen/margin31"
+            android:layout_marginLeft="@dimen/margin31"
+            android:layout_marginTop="@dimen/margin17"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/margin17"
+            android:padding="@dimen/margin_five" />
+
+        <Button
+            android:fontFamily="@font/cairo"
+            android:id="@+id/btn_signUp_Apply"
+            android:layout_width="266dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/listview_type"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/btn_backgr_white_apply"
+            style="?android:borderlessButtonStyle"
+            android:text="@string/search"
+            android:textColor="@color/blue" />
+    </RelativeLayout>
+</ScrollView>

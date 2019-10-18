@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b1091</color>
+    <color name="colorPrimaryDark">#1b1091</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_activity_main">#D398FD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_button">#110a5c</color>
+    <color name="trans">#7F000000</color>
+    <color name="black"> #3F3F3F</color>
+    <color name="tranWhite">#80FBF9FD</color>
+    <color name="text_color_main">#110a5c</color>
+    <color name="login_btn">#FF4351</color>
+    <color name="blue">#6059F0</color>
+    <color name="color_selected">#F7F7F7</color>
+
+    <color name="gray">#707070</color>
+    <color name="light">#898891</color>
+    <color name="border">#E2E2E4</color>
+    <color name="red">#FF5E5E</color>
+    <color name="whiteLight">#E2E2E4</color>
+    <color name="green">#5DCE8C</color>
+    <color name="pink">#F38080</color>
+    <color name="background_checked">#F3F3F3</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteSignUp"
+    android:background="@color/white"
+    >
+
+        <TextView
+            android:id="@+id/complete_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/cairo_bold"
+            android:text="@string/complete_signup"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginBottom="@dimen/margin17"
+            android:layout_marginTop="@dimen/margin20"/>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_below="@+id/complete_sign"
+        android:background="@drawable/border_edittext"
+
+        app:tabIndicatorColor="@color/blue"
+        app:tabSelectedTextColor="@color/blue"
+        app:tabTextColor="@color/black">
+<!--
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/business_owner" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job_jeeker" />
+    -->
+
+    </android.support.design.widget.TabLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tabs"
+
+/>
+
+
+    </RelativeLayout>

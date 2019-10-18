@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobsFilterFragment"
+    android:id="@+id/drawer_layout"
+    android:background="@color/white"
+   >
+
+        <TextView
+            android:layout_marginLeft="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/ic_menu_button"
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:id="@+id/txt_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobs"
+            android:fontFamily="@font/cairo_bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin17"
+            />
+
+        <SearchView
+            android:background="@color/white"
+            android:layout_marginRight="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:searchIcon="@drawable/ic_search"
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:soundEffectsEnabled="true"
+            android:layout_marginTop="@dimen/margin_five"
+            />
+
+     <!--   <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/relative_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_edittext"
+            >
+                <EditText
+                    android:id="@+id/edit_search"
+                    android:padding="@dimen/margin_ten"
+                    android:layout_width="match_parent"
+                    android:hint="@string/search"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/numbersize14"
+                    android:textColor="@color/gray"
+                    android:fontFamily="@font/lato"
+                    android:background="@drawable/border_edittext"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:id="@+id/arrow_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:drawableRight="@drawable/ic_left_arrow_black"
+                    android:padding="@dimen/margin31"
+                    />
+        </RelativeLayout>
+-->
+        <ProgressBar
+            android:id="@+id/prgbar"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:visibility="gone"
+            android:textSize="@dimen/numbersize14"
+            android:fontFamily="@font/cairo"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_found"
+            android:id="@+id/txt_notFound"/>
+        <ListView
+            android:id="@+id/listFilter"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dividerHeight="@dimen/margin17"
+            android:divider="@android:color/transparent"
+            >
+        </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fields">
+        <!-- fields  -->
+        <item>@string/Human_Medicine</item>
+        <item>@string/dentist</item>
+        <item>@string/Pharmacist</item>
+        <item>@string/architecture</item>
+        <item>@string/civil_engineering</item>
+        <item>@string/Computer_Engineering</item>
+        <item>@string/Press_and_media</item>
+        <item>@string/electrical_engineering</item>
+        <item>@string/Mechanical_Engineering</item>
+        <item>@string/Environmental_Engineering</item>
+        <item>@string/Information_Technology</item>
+        <item>@string/industrial_engineering</item>
+        <item>@string/Medical_Laboratory_Sciences</item>
+        <item>@string/Medical_optics_technology</item>
+        <item>@string/natural_therapy</item>
+        <item>@string/Mathematics</item>
+        <item>@string/Mathematics_Statistics</item>
+        <item>@string/Mathematics_Computer</item>
+        <item>@string/Chemistry</item>
+        <item>@string/Biochemistry</item>
+        <item>@string/Biotechnology</item>
+        <item>@string/Biology</item>
+        <item>@string/Physics</item>
+        <item>@string/Earth_and_Environmental_Sciences</item>
+        <item>@string/Plant_production</item>
+        <item>@string/Computer_science</item>
+        <item>@string/Information_Technology</item>
+        <item>@string/Software_development</item>
+        <item>@string/Multimedia_and_web_development</item>
+        <item>@string/Mobile_computing</item>
+        <item>@string/Nursing</item>
+        <item>@string/Midwifery</item>
+        <item>@string/Accounting</item>
+        <item>@string/Business_Management</item>
+        <item>@string/Economy_and_political_science</item>
+        <item>@string/Banking_and_Finance</item>
+        <item>@string/Politics_and_Media</item>
+        <item>@string/Economics_Applied_Statistics</item>
+        <item>@string/English_Business_Administration</item>
+        <item>@string/Accounting_in_English</item>
+        <item>@string/Psychological_guidance</item>
+        <item>@string/Basic_stage</item>
+        <item>@string/Education_of_Islamic_Education</item>
+        <item>@string/Education</item>
+        <item>@string/Science_Education</item>
+        <item>@string/Teaching_Mathematics</item>
+        <item>@string/Teaching_Arabic</item>
+        <item>@string/Teaching_English</item>
+        <item>@string/Chemistry_and_teaching_methods</item>
+        <item>@string/Physics_and_teaching_methods</item>
+        <item>@string/Biology_and_teaching_methods</item>
+        <item>@string/Computer</item>
+        <item>@string/Arabic</item>
+        <item>@string/Arabic_language_sub_press</item>
+        <item>@string/English</item>
+        <item>@string/Social_Service</item>
+        <item>@string/Geography_Geographic</item>
+        <item>@string/Press_and_media</item>
+        <item>@string/History_and_Archeology</item>
+        <item>@string/Geography</item>
+        <item>@string/Sharia_and_law</item>
+        <item>@string/Islamic_law</item>
+        <item>@string/The_fundamentals_of_religion</item>
+
+
+    </string-array>
+
+    <string-array name="jobType">
+        <item>@string/Full_Time</item>
+        <item>@string/Part_Time</item>
+        <item>@string/Full_Part</item>
+
+    </string-array>
+
+
+    <!-- place -->
+    <string-array name="place">
+        <item>@string/Gaza</item>
+        <item>@string/north_gaza</item>
+        <item>@string/beetHanoon</item>
+        <item>@string/bait_lahia</item>
+        <item>@string/jabalia</item>
+        <item>@string/bni_sohila</item>
+        <item>@string/middle_gaza</item>
+        <item>@string/dair_albalah</item>
+        <item>@string/south_gaza</item>
+        <item>@string/rafah</item>
+
+    </string-array>
+
+
+
+
+</resources>

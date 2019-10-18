@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_content"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:textSize="14sp"
+    android:text="دوام كامل"
+    android:textColor="@color/gray"
+    android:fontFamily="@font/cairo"
+    android:textAlignment="center"
+    android:background="@color/white">
+</TextView>

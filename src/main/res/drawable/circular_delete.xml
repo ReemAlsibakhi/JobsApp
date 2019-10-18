@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    >
+    <solid android:color="@color/green" />
+    <size android:width="@dimen/margin22" android:height="@dimen/margin22"
+        />
+
+    <!-- borderr -->
+    <!-- White Top (edittext)color -->
+ <stroke android:width="@dimen/border3px" android:color="@color/white"/>
+
+</shape>
